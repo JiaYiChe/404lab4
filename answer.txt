@@ -1,0 +1,17 @@
+Q1: https://github.com/JiaYiChe/404lab4
+
+Q2: Shows django page with following info: The install worked successfully! Congratulations!
+You are seeing this page because DEBUG=True is in your settings file and you have not configured any URLs.
+
+Q3: "/" show you page not found(404) and give URLconf defined in mysite,urls. "/polls" show "Hello, world. You're at the polls index".  
+
+Q4: Django migration is a command to confirm and apply the change we made to setting
+
+Q5: Django adminstration site show all the user info, group(if any) info, the models created in polls (Choice and Question) and their texts. Get custom models to appear in the Django admin page we need to add model in polls' admin.py (admin.site.register(Choice),admin.site.register(Question))
+
+Q6: "/polls/38/" show You're looking at question 38. "/polls/38/results" show You're looking at the results of question 38. /polls/38/vote show You're voting on question 38.
+If put in a string instead of number will give 404 error. To allow arbitrary alphabetic characters we just remove the "int:" infront of question_id.
+
+Q7: If urls changed then we must also change the href. We want it auto update.
+
+Q8: Django's generic views make our tasks easier by auto generate info. Writing views should be used when custom behavior that isn't covered by the generic view.
